@@ -72,6 +72,16 @@ a {
 	border-bottom: 2px solid #555;
 }
 
+.backdrop .banner {
+	position: absolute;
+	top: 70vh;
+	left: 0px;
+	background-color: rgba(0,0,0,0.7);
+	padding: 50px;
+	color: #fff;
+	font-size: 30px;
+}
+
 .container-title{
 	display: flex;
 	flex-direction: row;
