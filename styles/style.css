@@ -25,7 +25,7 @@ a {
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.7);
 	color: #fff;
 	z-index: 99;
 	position: fixed;
@@ -166,5 +166,12 @@ a {
 .footer {
 	margin-top: 35px;
 	padding: 20px;
-	background-color: #bbb;
+	color: #fff;
+	background-color: #222;
+}
+
+.footer .sub {
+	width: 35%;
+	padding: 20px;
+	font-size: 20px;
 }
