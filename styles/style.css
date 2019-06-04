@@ -166,6 +166,7 @@ a {
 	background-color: rgba(0,0,0,0);
 	padding: 10px;
 	transition: all 0.5s ease-out;
+	cursor: pointer;
 }
 
 .card-container .card:hover .title p {
@@ -178,10 +179,14 @@ a {
 	padding: 20px;
 	color: #fff;
 	background-color: #222;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .footer .sub {
-	width: 35%;
-	padding: 20px;
+	width: 25%;
+	padding: 25px;
 	font-size: 20px;
+	border: 1px solid #777;
 }
