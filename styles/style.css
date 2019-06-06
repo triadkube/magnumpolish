@@ -291,3 +291,47 @@ a {
 	color: white;
 	font-size: 18px;
 }
+
+.form textarea {
+	background-position: 15px center; 
+	background-repeat: no-repeat;
+	padding: 15px 5px;
+	width: 60%;
+	margin-top: 20px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	padding-left: 50px;
+}
+
+.form .title {
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.button {
+  background-color: #fff;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-left: 60%; 
+  margin-top: 20px; 
+  color: #255cd2;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+	background-color: #255cd2;
+	color: white;
+}
+
+.button:active {
+	transform: scale(0.9);
+}
