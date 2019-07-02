@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product :: Magnum Polish</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/product.css">
+	<meta name="viewport" content="width=device-width,initial-scale=0.5">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="preview-wrapper">
+		<div class="preview-body">
+			<div class="close">X</div>
+			<div class="photo"></div>
+			<div class="description">
+				<div class="title"> </div>
+				<div class="details"></div>
+				<button class="enquire" onclick="enquire()">Enquire Now</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="scripts/popup.js"></script>
+	<div class="backdrop">
+		<div class="header">
+			<div class="text">
+				<div class="h1">MAGNUM</div>
+				<div class="h2">POLISH & SHINERS</div>
+			</div>
+			<div class="nav">
+				<ul id="nav">
+					<a href="index.html"><li>Home</li></a>
+					<a href=""><li>Products</li></a>
+					<a href="contact.html"><li>Contact Us</li></a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="banner" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+			<b>Products</b><br>
+			From Polishes to Sprays and More<br>
+			Everything is Here to take care of Shining!!!
+		</div>
+	</div>
+
+	<div class="container-title" data-aos="fade-up" data-aos-duration="2000">
+		<p>Car Care</p>
+	</div>
+
+	<div class="card-container" data-aos="fade-up" data-aos-duration="2000">
+		<div onclick="popup('Teflon Polish', 1, 'styles/images/car_care/teflon-polish.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="300">
+			<div class="img"><img src="styles/images/car_care/teflon-polish.jpg"></div>
+			<div class="product-title">Teflon Polish</div>
+		</div>
+
+		<div onclick="popup('Car Glass & Interior Cleaner', 2, 'styles/images/car_care/car-glass.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="600">
+			<div class="img"><img src="styles/images/car_care/car-glass.jpg"></div>
+			<div class="product-title">Car Glass & Interior Cleaner</div>
+		</div>
+
+		<div onclick="popup('Foam Wash', 3, 'styles/images/car_care/foam-wash.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="900">
+			<div class="img"><img src="styles/images/car_care/foam-wash.jpg"></div>
+			<div class="product-title">Foam Wash</div>
+		</div>
+	</div>
+
+	<div class="container-title" data-aos="fade-up" data-aos-duration="2000">
+		<p>Bike Care</p>
+	</div>
+
+	<div class="card-container" data-aos="fade-up" data-aos-duration="2000">
+		<div onclick="popup('Teflon Polish', 1, 'styles/images/car_care/teflon-polish.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="300">
+			<div class="img"><img src="styles/images/bike_care/teflon-polish.jpg"></div>
+			<div class="product-title">Teflon Polish</div>
+		</div>
+
+		<div onclick="popup('Chain Lubricant', 5, 'styles/images/bike_care/chain-lube.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="600">
+			<div class="img"><img src="styles/images/bike_care/chain-lube.jpg"></div>
+			<div class="product-title">Chain Lube</div>
+		</div>
+
+		<div onclick="popup('wax-polish', 4, 'styles/images/bike_care/wax-polish.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="900">
+			<div class="img"><img src="styles/images/bike_care/wax-polish.jpg"></div>
+			<div class="product-title">Wax Polish</div>
+		</div>
+	</div>
+
+	<div class="container-title" data-aos="fade-up" data-aos-duration="2000">
+		<p>Shoe Care</p>
+	</div>
+
+	<div class="card-container" data-aos="fade-up" data-aos-duration="2000">
+		<div onclick="popup('Black Polish', 6, 'styles/images/bike_care/teflon-polish.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="300">
+			<div class="img"><img src="styles/images/shoe_care/black polish.jpg"></div>
+			<div class="product-title">Black Polish</div>
+		</div>
+
+		<div onclick="popup('Brown Polish', 7, 'styles/images/shoe_care/brown-polish.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="600">
+			<div class="img"><img src="styles/images/shoe_care/brown-polish.jpg"></div>
+			<div class="product-title">Brown Polish</div>
+		</div>
+
+		<div onclick="popup('Shoe Deodrant', 8, 'styles/images/shoe_care/sheo-deodrant.jpg')" class="card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="900">
+			<div class="img"><img src="styles/images/shoe_care/sheo-deodrant.jpg"></div>
+			<div class="product-title">Sheo Deodrant</div>
+		</div>
+	</div>
+
+	<div class="footer" data-aos="fade-down" data-aos-duration="2000">
+		<div class="sub" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+			<b>Magnum Polishes</b> is a Subsidiary Company of Magnum group which manufactures polishes for Cars, Bikes and Shoes.
+		</div>
+
+		<div class="sub" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+			<b style="">Quick Links</b>
+			<ul style="list-style: none">
+				<li>Home</li>
+				<li>Products</li>
+				<li>Contact Us</li>
+			</ul>
+		</div>
+
+		<div class="sub" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="900">
+			<b>Magnum Polishes</b><br>
+			No.4, Shoba Nagar,<br>
+			Ambattur O.T,<br>
+			Chennai - 600 053.
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script type="text/javascript">
+		AOS.init();
+	</script>
+</body>

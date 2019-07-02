@@ -1,0 +1,17 @@
+@media only screen and (max-width: 900px) {
+	div.map-container {
+		display: flex;
+	}
+
+	div.map-container div.map iframe {
+		display: none;
+	}
+
+	div.map-container div.form {
+		width: 80%;
+		align-self: center;
+		height: 70%;
+		right: 0;
+		left: 0;
+	}
+}

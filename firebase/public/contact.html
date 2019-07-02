@@ -3,17 +3,22 @@
 <head>
 	<title>Contact :: Magnum Polish</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/mobile.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=0.5">
 </head>
 <body>
 	<div class="backdrop">
 		<div class="header">
-			<div class="text"><img src="styles/images/title.png" style="width: 280px; height: 90px;"></div>
+			<div class="text">
+				<div class="h1">MAGNUM</div>
+				<div class="h2">POLISH & SHINERS</div>
+			</div>
 			<div class="nav">
 				<ul id="nav">
-					<a href="#"><li>Home</li></a>
-					<a href="#"><li>Products</li></a>
-					<a href="#"><li>Contact Us</li></a>
+					<a href="index.html"><li>Home</li></a>
+					<a href="product.html"><li>Products</li></a>
+					<a href=""><li>Contact Us</li></a>
 				</ul>
 			</div>
 		</div>
@@ -21,14 +26,14 @@
 		<div class="banner" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" style="top: 50%;">
 			<b>Reach Us at:</b><br>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Magnum Polishes,<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7G Rainbow Colony,<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pudhupet,<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai - 600 028.
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No. 4, Shoba Nagar,<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ambattur OT,<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai - 600 053.
 		</div>
 	</div>
 
 	<div class="map-container" data-aos="fade-up" data-aos-duration="1000">
-		<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.676119747081!2d80.19791837919887!3d13.054473205870151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3bbf01ceed94e385!2sThreeSpades+Media+PVT+LTD!5e0!3m2!1sen!2sin!4v1559778244842!5m2!1sen!2sin" width="1600" height="789" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+		<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.600619233481!2d80.14011561430574!3d13.124468415057736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5263ecf5cae9ad%3A0x1c0ad22f07cd12c5!2sMagnum+Industries!5e0!3m2!1sen!2sin!4v1561386045012!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></iframe></div>
 
 		<div class="form" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300">
 			<div class="title">Contact Us</div>
@@ -45,12 +50,12 @@
 			    <span>Enquiry</span>
 			</label>
 
-			<input type="text" name="name" placeholder="Name" style="background-image: url('https://img.icons8.com/material-rounded/24/000000/user.png');">
-			<input type="text" name="email" placeholder="E-Mail" style="background-image: url('https://img.icons8.com/ios/24/000000/secured-letter-filled.png');">
-			<input type="text" name="mobile" placeholder="Mobile" style="background-image: url('https://img.icons8.com/android/24/000000/phone.png');">
+			<input type="text" id="name" placeholder="Name" style="background-image: url('https://img.icons8.com/material-rounded/24/000000/user.png');">
+			<input type="text" id="email" placeholder="E-Mail" style="background-image: url('https://img.icons8.com/ios/24/000000/secured-letter-filled.png');">
+			<input type="text" id="mobile" placeholder="Mobile" style="background-image: url('https://img.icons8.com/android/24/000000/phone.png');">
 			<br>
-			<textarea placeholder="Tell us What's in your Mind..." name="comments" style="background-image: url('https://img.icons8.com/material/24/000000/voice-presentation.png');"></textarea>
-			<button class="button">Send</button>
+			<textarea placeholder="Tell us What's in your Mind..." id="comments" style="background-image: url('https://img.icons8.com/material/24/000000/voice-presentation.png');"></textarea>
+			<button class="button" onclick="submitAction()">Send</button>
 		</div>
 	</div>
 
@@ -70,9 +75,9 @@
 
 		<div class="sub" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="900">
 			<b>Magnum Polishes</b><br>
-			7G Rainbow Colony,<br>
-			Pudhupet,<br>
-			Chennai - 600 028.
+			No.4, Shoba Nagar,<br>
+			Ambattur O.T,<br>
+			Chennai - 600 053.
 		</div>
 	</div>
 
@@ -80,5 +85,6 @@
 	<script type="text/javascript">
 		AOS.init();
 	</script>
+	<script type="text/javascript" src="scripts/contact.js"></script>
 </body>
 </html>
